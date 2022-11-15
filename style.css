@@ -5,8 +5,14 @@
     --error-color: #e74c3c;
 }
 
-* {
+html {
     box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 body {
